@@ -26,7 +26,7 @@ public class Dec06 {
         return Arrays.asList(arrayN);
     }
 
-    private static void days(List<Long> state) {
+    private static void days(final List<Long> state) {
         int day = 0;
         List<Long> stateChange = state;
         while (day < 256) {
